@@ -1,0 +1,58 @@
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.clicked{
+    color: aqua;
+}
+nav{
+    display: grid;
+    font-size: 25px;
+    grid-template-columns: 1fr 3fr 1fr;
+    color: black;
+    background-color: white;
+    padding: 10px 0px;
+}
+nav div{
+    height: fit-content;
+    justify-self: flex-end;
+    align-self: center;
+}
+nav div img{
+    height:40px;
+    width:40px;
+}
+#navbar{
+    margin: 0px;
+    display: flex;
+    font-size: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+}
+.profile button{
+    padding: 15px 30px;
+    border-radius: 100px;
+    font-size: 20px;
+    color: white;
+    background-color: #e79b10;
+    border: none;
+}
+.brand{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    padding: 10px 10px;
+}
