@@ -7,7 +7,6 @@ import {Home} from './Home.jsx'
 import Booking from './Booking.jsx'
 import Confirmation from './Confirmation.jsx'
 import Clock from './Clock'
-import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const routes = createBrowserRouter([
   {
@@ -33,7 +32,6 @@ const routes = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router = {routes}/>
-    <SpeedInsights />
     {/* <Clock/> */}
   </React.StrictMode>,
 )
